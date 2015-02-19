@@ -2,11 +2,11 @@
 ## Create Date: 2/18/2015
 ## Course: R Programming
 ## Assignment: Programming Assignment 2
-## Purpose: Provide functions to create and manipulate a CahceMatrix object, 
+## Purpose: Provide functions to create and manipulate a CacheMatrix object, 
 ##  which represents a matrix with the ability to cache its inverse
 
 ## Creates a CacheMatrix object, using the input matrix as its base
-## Input: x, the base matrix that will be inversed
+## Input: x, the base matrix that will have a cacheable inverse
 ## Output: the CacheMatrix object, represented by a list of functions:
 ##  [1]: set(y) - sets the base matrix to the value of y
 ##  [2]: get() - returns the base matrix
